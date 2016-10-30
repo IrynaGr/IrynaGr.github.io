@@ -4,26 +4,31 @@
 }
 
 .wrap {
-	width: 1024px;
- 	height: 768px;
+	width: 1064px;
+ 	height: 100vh;
  	margin: auto;
- 	font-family: sans-serif;
- 	font-size:15px;
- 	line-height:135%;
+ 	padding-left: 40px;
+ 	box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.3);
+  	background: #fff;
+}
+body {
+	 background: #f3f3f3;
 }
 
-.header {
-	font-size:50px;
-	margin-top: 40px;
-	font-weight: 600;
-	margin-bottom: 50px;
-
+.logo {
+  height: 45px;
 }
 
-.nav ul {
-	background: grey;	
-	padding: 10px;
-	margin-bottom: 40px; 
+.nav {
+	width: 960px;
+  height: 40px;
+  background: linear-gradient(to right, #444343, #5e5e5e);
+  margin-bottom: 40px;
+}
+
+.nav li {
+	display: inline-block;
+  	margin-left: 25px;
 }
 
 .panel {
@@ -32,8 +37,9 @@
 }
 .panel a {
 	text-decoration: none;
-	color: white;
-    padding: 10px;
+	color: #fff;
+ 	line-height: 40px;
+  	height: 40px;
 }
 
 .nav ul li a:hover {
