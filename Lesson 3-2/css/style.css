@@ -30,6 +30,8 @@ body {
 .menu--header li {
   display: inline-block;
   margin-left: 25px;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
 
 }
 .menu--header li a {
@@ -41,6 +43,10 @@ body {
   /*color: #fff;*/
   line-height: 40px;
   height: 40px;
+  width: 80px;
+  display: block;
+  padding-left: 30px;
+
 }
 
 .menu--header li:hover {
@@ -59,7 +65,7 @@ body {
 .aside a{
   text-decoration: none;
   color: grey;
-  /*padding: 10px;*/
+  padding: 10px;
 }
 .aside li {
   padding: 10px;
