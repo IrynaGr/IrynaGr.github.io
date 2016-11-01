@@ -66,16 +66,20 @@ body {
   text-decoration: none;
   color: grey;
   padding: 10px;
+  display: inline-block;
+  width: 200px;
+  height: 20px;
 }
 .aside li {
-  padding: 10px;
-  /*margin-bottom: 25px;*/
+  
   border-top: 1px solid grey;
   border-left: 1px solid grey;
   border-right:1px solid grey;
   /*border-bottom: 1px solid grey;*/
   position: relative;
-  
+  /*display: inline-block;
+  width: 240px;
+  height: 40px;*/
 }
 
 .aside li:last-child {
@@ -86,10 +90,13 @@ body {
 .aside li a:hover {
   color: black;
   background-color: lemonchiffon;
+  padding-left: 10px;
+ 
  } 
  
  .aside li:hover {
   background-color: lemonchiffon;
+  padding-left: 10px;
 
  }
 
