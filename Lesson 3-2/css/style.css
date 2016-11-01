@@ -40,7 +40,6 @@ body {
 
 .menu__links {
   text-decoration: none;
-  /*color: #fff;*/
   line-height: 40px;
   height: 40px;
   width: 80px;
@@ -75,11 +74,7 @@ body {
   border-top: 1px solid grey;
   border-left: 1px solid grey;
   border-right:1px solid grey;
-  /*border-bottom: 1px solid grey;*/
   position: relative;
-  /*display: inline-block;
-  width: 240px;
-  height: 40px;*/
 }
 
 .aside li:last-child {
@@ -105,7 +100,6 @@ body {
   width: 617px;
   height: 415px;
   margin-left: 50px;
-  /*background: #ccc;*/
   display: inline-block;
   vertical-align: top;
   margin-bottom: 40px;
