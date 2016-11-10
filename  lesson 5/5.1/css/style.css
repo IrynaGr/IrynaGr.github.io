@@ -1,0 +1,243 @@
+body {
+	background: lightgray;
+}
+
+.wrapper {
+	width: 1000px;
+  	height: 880px;
+  	margin: 40px 150px;
+  	/*box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);*/
+	background-image: url(../img/bike.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+  background-attachment: fixed;
+	border: 1px solid gray;
+}
+
+@font-face {
+    font-family: 'Helvetica_Neue';
+    src: url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.menu {
+	 width: 1000px;
+  	height: 40px;
+  	background-image: url(../img/fon5.png);
+  	background-repeat: repeat-x;
+  	text-align: right;
+}
+
+.menu li {
+  display: inline-block;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  font-size: 13px;
+  font-family: 'Helvetica_Neue';
+}
+
+.menu li a {
+	color: lightblue;
+  height: 100%;
+  padding-top: 12px;
+  padding-left: 5px;
+  padding-bottom: 9px;
+  padding-right: 10px;
+}
+
+.links {
+	text-decoration: none;
+ 	display: inline-block;
+   margin-top: 0;
+}
+
+.menu li:last-child {
+	background: rgba(173, 216, 230, 0.7);
+	color: rgba(255, 255, 255, 1);
+  padding: 12px;
+  margin-right: 15px;
+}
+
+.menu li:nth-child(6) {
+  border-left: 1px solid rgba(173, 216, 230, 0.7);
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 1);
+  margin-right: 10px;
+  
+}
+
+.menu li a:hover {
+  background: rgba(173, 216, 230, 0.7);
+  color: rgba(255, 255, 255, 1);
+  font-weight: bolder;
+ }
+
+.above {
+  width: 460px;
+  height: 45px;
+  display: block;
+  margin-bottom: 1px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 180px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.above p {
+  font-size: 22px;
+  font-family: 'Helvetica_Neue';
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.main {
+  width: 460px;
+  height: 455px;
+  display: block;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 2px;
+  margin-bottom: 150px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.face {
+  padding-top: 20px;
+
+}
+
+.face a {
+    width: 225px;
+    background-image: url(../img/fon6.png);
+    /*background-repeat: repeat-x;*/
+    margin-left: 120px;
+    text-decoration: none;
+    font-family: 'Helvetica_Neue';
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+  }
+
+  b {
+    font-weight: bold;
+  }
+
+  .book {
+    font-size: 25px;
+    font-family: arial;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    height: 100%;
+    padding-bottom: 5px;
+  }
+
+  .log {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+
+  .arrow {
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 18px;
+  }
+
+  .ou {
+    padding-top: 20px;
+  }
+
+  .line {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .line:before,
+  .line:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 95px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.4);
+    border: solid transparent;
+    border-width: 0 10px;
+  }
+
+  .line:before {
+    margin-left: -100%;
+  }
+
+  .line:after {
+    margin-right:-100%;
+  }
+
+  .line {
+     color: rgba(255, 255, 255, 0.5);
+  }
+
+  .form {
+    padding-top: 20px;
+  }
+
+  .contact {
+    background: rgba(0, 0, 0, 0.7);
+    margin-left: 120px;
+    width: 225px;
+    height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+    padding-left: 10px;
+    margin-bottom: 10px;
+    /*box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);*/
+}
+
+.contact:hover {
+  background-image: url(../img/fon8.png); 
+  box-shadow: 0 0 10px rgba(0, 191, 255, 1);
+}
+
+.check {
+  margin-left: 120px;
+ /*box-shadow: 0 0 10px rgba(225, 225, 255, 1);*/
+  border: 1px solid rgba(0,0,0,0.5;)
+}
+
+.send {
+  color: rgba(225, 255, 255, 0.8);
+  text-align: center;
+  font-size: 14px;
+}
+
+.button {
+  margin-left: 170px;
+  background: linear-gradient(to top, rgb(30, 144, 255), rgb(173, 216, 230)); 
+  color: rgba(225, 255, 255, 1);
+  margin-top: 10px;
+  border-radius: 3px;
+  height: 30px;
+}
+
+.end {
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: rgba(225, 255, 255, 1);
+  text-align: center;
+  font-size: 13px;
+  line-height: 135%;
+}
