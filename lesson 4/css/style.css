@@ -8,10 +8,12 @@
 .wrapper{
 	width: 1064px;
   	/*height: 140vh;*/
+  	margin: auto;
   	margin-bottom: 20px;
-  	margin-right: 100px;
-  	margin-left: 100px;
-  	margin-top: 0;
+  	/*margin-right: 100px;
+  	margin-left: 100px;*/
+  	/*margin-top: 0;*/
+
   	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
   	background: white;
 }
@@ -131,7 +133,7 @@ ul.trips {
 
     left: 0;
     background-color: #383838;
-    /*top: 25px;*/
+    top: 16px;
     border-top: 1px solid black;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);         
 }
