@@ -20,12 +20,17 @@ body {
     font-style: normal;
 }
 
+.wrapper-menu {
+  height: 40px;
+  background-image: url(../img/fon5.png);
+  background-repeat: repeat-x;
+}
+
 .menu {
-    width: 100%;
+    width: 60%;
     height: 40px;
-    background-image: url(../img/fon5.png);
-    background-repeat: repeat-x;
-    text-align: right;
+    text-align: left;
+    margin-left: 39%;
 
 
 }
@@ -80,10 +85,10 @@ box-sizing: border-box;
 .menu li a:hover {
   background: rgba(173, 216, 230, 0.7);
   color: rgba(255, 255, 255, 1);
-  font-weight: bolder;
-  /*box-sizing: border-box;*/
+  /*font-weight: bolder;
+  /*box-sizing: border-box;
   padding-left: 6px;
-  padding-right: 6px;
+  padding-right: 6px;*/
   
   
  }
