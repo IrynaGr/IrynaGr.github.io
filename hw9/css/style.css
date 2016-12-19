@@ -125,9 +125,10 @@
  }
  	 
  .circle-wrapper {
- 	float: right;
- 	margin-top: 10%;
- 	margin-right: 17%;
+ 	/*float: right;*/
+ 	position: absolute;
+ 	margin-top: 5%;
+ 	right: 17%;
  }
  	 
  .article-wrapper {
@@ -238,7 +239,7 @@
  	background-color: white;
  	margin-left: 0;
  	padding-left: 5%;
- 	padding-top: 7%;
+ 	padding-top: 4%;
  	color: #454545;
  	float: left;
  	position: relative;
@@ -298,20 +299,20 @@
  	font-size: 1.8rem;
  	font-family: 'league_gothicregular', Verdana, Arial, sans-serif;
  	text-transform: uppercase;
- 	padding-top: 14%;
+ 	padding-top: 9%;
  }
  	 
  .post-title {
  	font-family: 'open_sansregular', Verdana, Arial, sans-serif;
  	font-weight: bold; 
 	padding-top: 1%;
-	margin-bottom: 3%;
+	margin-bottom: 1%;
  }
  
  .post-info {
  	font-family: 'open_sansregular', Verdana, Arial, sans-serif;
  	font-weight: normal; 
- 	padding-top: -3%;
+ 	/*padding-top: -3%;*/
  }
  	
  .post-ico {
@@ -322,9 +323,9 @@
  }
  	
  .post-read-more {
- 	margin-bottom: 10%;
+ 	/*margin-bottom: 10%;*/
  	margin-right: 4%;
- 	margin-top: 2%;
+ 	/*margin-top: 2%;*/
  	float: right;
  	color: #454545;
  	font-size: 1.1rem;
@@ -339,7 +340,7 @@
  .companies {
  	border-top: 1px solid #e6e6e6;
  	border-bottom: 1px solid #b8b8b8; 
-	height: 120px;
+	/*height: 120px;*/
  }
  	
  .companies-list {
@@ -351,7 +352,8 @@
  .companies-list__item {
  	margin-left: 1%;
  	margin-top: 2%;
-	margin-right: 5.5%
+	margin-right: 5.5%;
+	margin-bottom: 2%;
  }
  	 
  .article-wrapper-wider {
@@ -402,8 +404,9 @@
  }
 
  .bull {
- 	margin-right: 67.5%;
- 	margin-top: -26%;
+ 	position: absolute;
+ 	left: -3%;
+ 	margin-top: -2%;
  }
 
  .article__copyright {
@@ -429,7 +432,8 @@
  }
  
  .footer {
- 	background: url("../img/footer3.png") center;
+ 	background: url("../img/footer3.png");
+ 	background-size: cover;
  }
 
  .footer__block {
@@ -438,7 +442,7 @@
  }
 
  .footer-menu {
- 	padding-top: 5%;
+ 	padding-top: 3%;
  }
  	
  .footer-menu__item {
