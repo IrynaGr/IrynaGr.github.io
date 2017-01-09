@@ -1,0 +1,25 @@
+h3 {
+	margin: 20px;
+	margin-left: 160px;
+}
+
+.list {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.menu {
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-top: 10px;
+}
+
+.menu__item {
+	list-style: none;
+}
+
+.submit {
+	margin-left: 160px;
+}
