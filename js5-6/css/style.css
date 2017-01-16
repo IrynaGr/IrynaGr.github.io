@@ -1,0 +1,35 @@
+
+.wrapper {
+    margin: 0 auto;
+    height: 250px;
+    width: 600px;
+    background: linear-gradient(to top, #696969, #D3D3D3);
+    border-radius: 10px;
+}
+
+
+.time{
+    margin: 50px 0 0 0;
+    text-shadow: 0 0 15px #0c739f;
+    font-size: 85px;
+    padding-left: 90px;
+    margin-bottom: -10px;
+
+}
+
+.box-button{
+    margin: 25px 0 0 0;
+    padding: 0 0 0 200px;
+}
+
+.btn {
+	font-size: 35px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.btn-success {
+	margin-right: 50px;
+	margin-left: -120px;
+}
+
