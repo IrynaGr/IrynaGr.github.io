@@ -1,0 +1,61 @@
+.menu {
+  background-color:rgb(255,100,100);
+  padding:10px 0;
+}
+.menu ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.menu .menu_item {
+    display:inline-block;
+    position:relative;
+}
+
+.menu li ul {    
+    background-color:rgb(225,75,75);
+    position:absolute;
+    left:0;
+    top:40px;
+    width:200px;
+}
+.menu li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+.menu li li ul {
+    position:absolute;
+    top:0;
+    left:200px;
+    margin:0;
+}
+
+.menu a {
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+.menu a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    color:rgb(50,50,50);
+}
+
+.menu li li a {
+    border-bottom:solid 1px rgb(200,50,50);
+    margin:0 10px;
+    padding:0;
+}
+.menu li li:last-child a {
+    border-bottom:none;
+}
+
+ul.submenu {
+    display:none;
+}
