@@ -1,0 +1,26 @@
+.container {
+	margin: 40px auto;
+	clear: both;
+	border: 1px solid lightgrey;
+	width: 600px;
+	padding-left: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+hr {
+	width: 100%;
+	margin-left: -6px;
+}
+
+.photo {
+	margin: 0px 200px;
+	height: 200px;
+}
+
+.para {
+	margin-left: 20px;
+	margin-left: 20px;
+}
