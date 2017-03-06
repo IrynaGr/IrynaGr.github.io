@@ -1,0 +1,79 @@
+.prospect {
+    height: 340px;
+    padding-top: 70px;
+    margin-left: 70px;
+    ul li {
+        display: inline-block;
+        width: 360px;
+        margin-right: 35px;
+
+        div {
+            display: inline-block;
+            width: 239px;
+            padding-top: 35px;
+        }
+
+        .prospect_number {
+            display: inline-block;
+            font-family: ubuntumedium;
+            font-size: 90px;
+            color: rgba(42, 43, 46, 0.1);
+            vertical-align: top;
+        }
+        h4 {
+            font-family: ubuntumedium;
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        h4:before {
+            display: block;
+            position: relative;
+            content: "";
+            width: 33px;
+            height: 33px;
+            bottom: 10px;
+            background: url('../img/sprite-yellow.png') no-repeat;
+            background-position: 0px -1px;
+        }
+        p {
+            font-family: 'Arial Regular';
+            font-size: 13px;
+            color: #8a8a8a;
+            margin-bottom: 20px;
+        }
+        a {
+            position: relative;
+            text-decoration: none;
+            color: #2a2b2e;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        a:hover {
+            color: #248cec;
+        }
+        a:after {
+            display: block;
+            position: absolute;
+            content: '';
+            right: -20px;
+            top: 3px;
+            width: 10px;
+            height: 9px;
+            background: url('../img/sprite-arrow.png') no-repeat;
+            background-position: 0px 0px;
+        }
+        a:hover:after {
+            background-position: -10px 0px;
+        }
+    }
+    ul li:nth-child(2) h4:before {
+        background-position: -33px -1px;
+    }
+    ul li:nth-child(3) h4:before {
+        background-position: -66px -1px;
+    }
+     ul li:nth-child(3) {
+        margin-right: 0;
+    }
+}

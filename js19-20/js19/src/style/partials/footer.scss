@@ -1,0 +1,123 @@
+footer {
+    height: 385px;
+}
+.links_line {
+    height: 325px;
+    background: #2a2d32;
+}
+.links {
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+.links_item {
+    display: inline-block;
+    width: 260px;
+    margin-right: 35px;
+    a {
+        display: block;
+        font-family: ubuntumedium;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+    a:hover {
+        color: #248cec;
+    }
+
+    ul li {
+        display: block;
+        width: 260px;
+        height: 36px;
+        line-height: 36px;
+        border-bottom: 1px solid #393c40;
+
+        a {
+            font-family: 'Arial Regular';
+            font-size: 13px;
+            font-weight: 400;
+            text-transform: none;
+            color: rgba(255, 255, 255, 0.302);
+            text-decoration: none;
+        }
+        a:hover {
+            color: #248cec;
+        }
+    }
+    ul li:last-child {
+        border: none;
+    }
+}
+div.links ul li.last_item {
+    margin-right: 0px;
+}
+
+.contacts_line {
+    height: 60px;
+    background: #35383c;
+}
+.contacts {
+    position: relative;
+    width: 1160px;
+    margin: 0 auto;
+
+    ul li {
+        display: inline-block;
+        margin-right: 30px;
+    }
+    ul li a {
+        display: block;
+        position: relative;
+        font-family: 'Arial Regular';
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.302);
+        text-decoration: none;
+        line-height: 60px;
+    }
+    ul li a:hover {
+            color: #248cec;
+    }
+
+    ul li a:before {
+        display: inline-block;
+        position: relative;
+        content: '';
+        top: 6px;
+        left: -10px;
+        width: 12px;
+        height: 16px;
+        background: url(../img/sprite-contacts.png) 0px 0px no-repeat;
+    }
+    ul li:nth-child(2) a:before {
+        background-position: -12px 0px;
+    }
+    ul li:nth-child(3) a:before {
+        background-position: -24px 0px;
+        width: 17px;
+    }
+
+}
+.copyright {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 60px;
+
+    a {
+        display: block;
+        font-family: 'Arial Regular';
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.302);
+        text-decoration: none;
+    }
+    a:hover {
+        color: #248cec;
+    }
+}

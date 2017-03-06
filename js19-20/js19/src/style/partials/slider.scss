@@ -1,0 +1,97 @@
+.carousel-line {
+    width: 1160px;
+    height: 470px;
+    margin: 0 auto;
+    background: url('../img/fon1-carousel.png') no-repeat;
+    background-position: center;
+}
+
+.carousel_item  p {
+        display: inline-block;
+        min-width: 200px;
+        padding: 5px 20px;
+        background-color: rgba(40, 40, 40, 0.7);
+}
+.carousel_item p span {
+            font-family: ubuntumedium;
+            font-size: 54px;
+            text-transform: uppercase;
+            color: #fff;
+}
+
+.carousel_item p:first-child span{
+        color: #f4b60d;
+}
+
+#rs-carousel ul li {
+    list-style: none;
+    margin-right: 960px;
+            color: #fff;
+            font-size: 54px;
+            text-align: left;
+            width: 200px;
+            height: 470px;
+            position: relative;
+            top: 160px;
+            padding-left: 50px;
+}
+
+.rs-carousel-pagination {
+    display: block;
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+    top: -60px;
+}
+
+#rs-carousel .rs-carousel-pagination-link {
+        display: inline;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background: #fff;
+            margin-right: 5px;
+}
+
+#rs-carousel .rs-carousel-pagination-link a {
+    display: block;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    color: transparent;
+    font-size: 0px;
+    text-decoration: none;
+}
+
+#rs-carousel .rs-carousel-pagination-link:hover a:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: rgb(0, 29, 29);
+    left: 3px;
+    top: 3px;
+}
+
+#rs-carousel .rs-carousel-pagination-link-active a:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: rgb(0, 29, 29);
+    left: 3px;
+    top: 3px;
+}
+.rs-carousel-mask {
+    overflow: hidden;
+}
+
+.rs-carousel-runner {
+    position: relative;
+}
+
+.rs-carousel-horizontal .rs-carousel-item {
+    float: left;
+}

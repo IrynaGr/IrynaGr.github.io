@@ -1,0 +1,76 @@
+aside {
+	display: block;
+	height: 500px;
+	background: #2a2d32;
+	padding-top: 45px;
+	box-sizing: border-box;
+	h3 {
+		font-family: ubuntumedium;
+		font-size: 24px;
+		color: #fff;
+		margin-bottom: 45px;
+	}
+	div {
+		width: 1160px;
+		margin: 0 auto;
+	}
+	
+
+	ul li {
+		display: inline-block;
+		width: 260px;
+		margin-right: 35px;
+		a {
+			text-decoration: none;
+			}	
+	}
+	ul li:last-child {
+		margin-right: 0;
+	}
+
+	img {
+		position: relative;
+		width: 260px;
+		height: 260px;
+		margin-bottom: 30px;
+	}
+
+	figure {
+		position: relative;
+	}
+
+	figure:after {
+		display: none;
+		position: absolute;
+		content: '+';
+		font-size: 100px;
+		color: #fff;
+		text-align: center;
+		vertical-align: middle;
+		top: 0;
+		left: 0;
+		width: 260px;
+		height: 260px;
+		background: rgba(46, 140, 227, 0.6);
+		box-sizing: border-box;
+		padding-top: 70px;
+		/*z-index: 5;*/
+	}
+	figure:hover:after {
+		display: block;		
+	}
+
+	figure:hover figcaption span {
+			color: #f4b60d;
+	}
+
+	figcaption {
+		text-align: center;
+		span {
+			font-family: ubuntumedium;
+			font-size: 16px;
+			color: #fff;			
+		}		
+	}
+
+}
