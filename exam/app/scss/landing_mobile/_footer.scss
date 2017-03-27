@@ -1,0 +1,79 @@
+@import "../scss/_mixins";
+
+footer {
+  text-align: center;
+  font-family: $header-font;
+  border-top: 3px solid rgb(255, 78, 80);
+  margin-top: 50px;
+
+  h4 {
+    color: #ff4e50;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+
+  .foot-box-one {
+    font-size: 14px;
+
+    span {
+      color: #333333;
+    }
+    .foot-nav-company {
+      margin-top: 3px;
+      padding: 0;
+        li {
+          display: inline-block;
+          font-family: 'Roboto-Ligh';
+          list-style: none;
+          padding: 0 2px 0 7px;
+          font-size: 16px;
+
+          a {
+            color: #b8b8b8;
+            text-decoration: none;
+          }
+        }
+    }
+  }
+
+  .foot-box-two {
+    font-size: 13px;
+
+    .foot-nav-partners {
+      padding: 0;
+      li {
+        list-style: none;
+        font-size: 16px;
+
+        a {
+          display: block;
+          font-size: 14px;
+          color: #333333;
+          text-decoration: none;
+          margin-bottom: 10px;
+        }
+      }
+
+    }
+
+    span {
+      color: #b8b8b8;
+      font-size: 11px;
+      width: 120px;
+      display: block;
+      margin: 0 auto;
+      &::after {
+        content: url('../img/footer-logo.png');
+        display: block;
+        margin-top: 5px;
+      }
+      @media (-webkit-min-device-pixel-ratio: 2) {
+      &::after {
+        background-image: url('../img/footer-logo-retina.png');
+        background-size: cover;
+        }
+      }
+    }
+  }
+}

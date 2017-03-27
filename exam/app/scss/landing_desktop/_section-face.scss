@@ -1,0 +1,76 @@
+@import "../scss/_mixins";
+
+  .face {
+    margin-top: 50%;
+    margin-left: 20%;
+    h2 {
+      margin-right: 130px;
+      margin-top: 92px;
+      margin-bottom: 33px;
+    }
+
+    .desk-box {
+      display: flex;
+
+      .desk-face-one {
+        display: inline-block;
+        width: 18%;
+        .face-one-text {
+          width: 100%;
+          h4 {
+            margin-top: 10px;
+          }
+        }
+      }
+
+      .desk-face-two {
+        display: inline-block;
+        width: 18%;
+        margin-left: 26px;
+        .face-two-text {
+          padding: 0;
+          width: 100%;
+        }
+        h4 {
+          margin-top: 10px;
+        }
+      }
+
+      .desk-face-three {
+        display: inline-block;
+        width: 18%;
+        margin-left: 26px;
+        .face-three-text {
+          padding-top: 0;
+          width: 100%;
+        }
+        h4 {
+          margin-top: 10px;
+        }
+      }
+
+      .desk-face-four {
+        display: inline-block;
+        width: 18%;
+        margin-left: 26px;
+
+        .face-four-text {
+          padding: 0;
+          width: 100%;
+        }
+        h4 {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .section-face-input {
+      margin-top: 19px;
+      margin-left: 240px;
+    }
+
+    .section-face-box {
+      display: none;
+    }
+
+  }

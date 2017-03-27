@@ -1,0 +1,63 @@
+.masonry {
+  h2 {
+    margin: 35px auto 14px;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+    font-size: 21px;
+    color: #333333;
+  }
+  .bottom {
+    margin-top: 60px;
+    margin-bottom: 13px;
+  }
+  p {
+    
+    font-family: 'Roboto-Ligh';
+    color: #696969;
+    font-size: 17px;
+    margin-bottom: 16px;
+    margin-top: 11px;
+  }
+  input {
+    display: block;
+    width: 266px;
+    height: 34px;
+    margin: 18px auto 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    letter-spacing: 0.321px;
+  }
+  .btn {
+    display: block;
+    width: 280px;
+    height: 40px;
+    margin: 10px auto;
+    line-height: 40px;
+    border-radius: 20px;
+    font-family: 'Montserrat-Bold';
+    font-size: 0.875em;
+    text-align: center;
+    text-decoration: none;
+    background: #ff4e50;
+    color: white;
+  }
+}
+.grid {
+  margin: 10px -15px;
+}
+.grid-item {
+  height: 120px;
+  margin-bottom: 10px;
+  line-height: 60px;
+  font-family: 'Montserrat-Bold';
+  font-size: 21px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.grid-item:first-letter {
+  text-transform: capitalize;
+}

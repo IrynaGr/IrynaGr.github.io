@@ -1,0 +1,128 @@
+.carousel-container {
+  display: block;
+  overflow: hidden;
+
+    margin: 0 3px;
+
+
+  .carousel-container-box {
+    float: left;
+    width: 30%;
+    
+    @include carousel;
+    .carousel-arrow-left {
+      position: absolute;
+      margin-top: 58px;
+      margin-left: 22px;
+      z-index: 5;
+    }
+
+    .carousel-arrow-right {
+      position: absolute;
+      margin-top: 57px;
+      margin-left: 23%;
+      z-index: 5;
+    }
+
+    .container-list {
+      float: left;
+      position: relative;
+      .carousel {
+        width: 9999px;
+        padding: 0;
+        li {
+          width: 2.2%;
+          list-style: none;
+          float: left;
+        }
+      }
+    }
+  }
+
+
+  .carousel-container-box {
+    float: left;
+    width: 30%;
+    /*margin-left: 1%;
+    margin-right: 3%;*/
+    @include carousel;
+    .carousel-arrow-left-2 {
+      position: absolute;
+      margin-top: 58px;
+      margin-left: 22px;
+      z-index: 5;
+    }
+
+    .carousel-arrow-right-2 {
+      position: absolute;
+      margin-top: 57px;
+      margin-left: 23%;
+      z-index: 5;
+    }
+
+    .container-list-2 {
+      float: left;
+      position: relative;
+      .carousel {
+        width: 9999px;
+        padding: 0;
+        li {
+          width: 2.2%;
+          list-style: none;
+          float: left;
+        }
+      }
+    }
+
+  }
+
+  .carousel-container-box-3 {
+    float: left;
+    width: 30%;
+    @include carousel;
+    .carousel-arrow-left-3 {
+      position: absolute;
+      margin-top: 58px;
+      margin-left: 22px;
+      z-index: 5;
+    }
+
+    .carousel-arrow-right-3 {
+      position: absolute;
+      margin-top: 57px;
+      margin-left: 23%;
+      z-index: 5;
+    }
+
+    .container-list-3 {
+      float: left;
+      position: relative;
+      .carousel {
+        width: 9999px;
+        padding: 0;
+        li {
+         width: 2.2%;
+          list-style: none;
+          float: left;
+        }
+      }
+    }
+  }
+
+  .carousel-desk {
+    display: none;
+  }
+
+}
+
+.carousel-container-box-2 {
+  margin-left: 3%;
+}
+
+.carousel-container-box {
+  margin-right: 1%;
+}
+
+.carousel-container-box-3 {
+  margin-left: 3%;
+}

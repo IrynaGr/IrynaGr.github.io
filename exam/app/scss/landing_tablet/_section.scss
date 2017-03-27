@@ -1,0 +1,109 @@
+section {
+  text-align: center;
+  margin: 95px 10px 0;
+
+  .step {
+    font-size: 23px;
+    color: #333333;
+   
+        margin: 95px 10px 16px 21px;
+  }
+
+  .step-one {
+    display: none;
+  }
+
+  .step-one-tablet {
+    background-image: url('../img/tablet/step1.jpg');
+    /*padding: 95px 0 10px 20px;
+    width: 30%;*/
+    
+    height: 400px;
+  }
+
+  .step-two {
+    display: none;
+  }
+
+  .step-two-tablet {
+    background-image: url('../img/tablet/step2.jpg');
+    /*padding: 138px 0 10px 20px;
+    width: 30%;*/
+   
+    height: 400px;
+  }
+
+
+  .step-three {
+    display: none;
+  }
+
+  .step-three-tablet {
+    background-image: url('../img/tablet/step3.jpg');
+    /*margin-top: 4px;
+    padding: 91px 0 10px 20px;
+    width: 30%;*/
+    
+    height: 400px;
+  }
+
+}
+
+.section {
+
+      
+  height: 400px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+
+   &-cont{
+    /*position: absolute;
+    bottom: 15px;*/
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+  }
+
+  &-step{
+    
+    
+    background-color: #ff4e50;
+    border-radius: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.1rem 1rem;
+    letter-spacing: 1.5px;
+    margin-top: 200px;
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-family: Montserrat;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    }
+  }
+
+  &-head {
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 1rem;
+  }
+
+  &-desc{
+    color: #ccc;
+    font-family: Roboto-Ligh;
+    font-size: 0.9rem;
+    font-weight: 300;
+    
+    line-height: 16px;
+  }
+}
+
+.step-different {
+  margin-top: 220px;
+}

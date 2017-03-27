@@ -1,0 +1,46 @@
+@import "../scss/_mixins";
+
+
+footer {
+  border-top: 3px solid rgb(255, 78, 80);
+
+}
+.foot {
+  font-family: $header-font;
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  h4 {
+    margin-top: 40px;
+  }
+
+  .foot-box-one {
+    margin-left: 84px;
+    margin-top: 40px;
+    ul {
+      text-align: left;
+      margin-top: 10px;
+      li {
+        display: block;
+        padding: 6px 0 0 0;
+      }
+    }
+  }
+
+  .foot-box-two {
+    display: flex;
+    margin-left: 103px;
+    margin-top: 40px;
+
+    .foot-nav-partners {
+      margin: 0;
+    }
+
+    span {
+      margin-top: 5px;
+      font-size: 10px;
+      margin-left: 117px;
+    }
+  }
+}
+

@@ -1,0 +1,125 @@
+@import "../scss/_mixins";
+
+.face {
+  text-align: center;
+  font-family: $header-font;
+  margin: 32px 25px;
+
+  h2 {
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 18px;
+    margin-top: 25px;
+  }
+
+  .face-one-text {
+
+    &::before {
+      content: url('../img/face1.png') ;
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+    &::before {
+      background-image: url('../img/face1-retina.png');
+      background-size: cover;
+      }
+    }
+    @include section-face-img;
+    .face-one-h4 {
+      margin: 8px 0;
+      @include section-face-h4;
+    }
+
+    .face-one-p {
+      font-family: 'Roboto-Ligh';
+    }
+  }
+
+  .face-two-text {
+    padding: 8px 0 0 0;
+    &::before {
+      content: url('../img/face2.png') ;
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+    &::before {
+      background-image: url('../img/face2-retina.png');
+      background-size: cover;
+      }
+    }
+    @include section-face-img;
+    .face-two-h4 {
+      @include section-face-h4;
+      margin-top: 11px;
+      margin-bottom: 0;
+    }
+
+    .face-two-p {
+      font-family: 'Roboto-Ligh';
+    }
+  }
+
+  .face-three-text {
+    padding-top: 8px;
+    &::before {
+      content: url('../img/face3.png') ;
+    }
+    @media (-webkit-min-device-pixel-ratio: 2) {
+    &::before {
+      background-image: url('../img/face3-retina.png');
+      background-size: cover;
+      }
+    }
+    @include section-face-img;
+    .face-three-h4 {
+      @include section-face-h4;
+      margin-top: 12px;
+      margin-bottom: 0;
+    }
+
+    .face-three-p {
+      font-family: 'Roboto-Ligh';
+    }
+  }
+
+  .face-four-text {
+    padding-top: 8px;
+    &::before {
+      content: url('../img/face4.png') ;
+    }
+    @media (-webkit-min-device-pixel-ratio: 2) {
+    &::before {
+      background-image: url('../img/face4-retina.png');
+      background-size: cover;
+      }
+    }
+    @include section-face-img;
+    .face-four-h4 {
+      @include section-face-h4;
+      margin-top: 9px;
+      margin-bottom: 0;
+    }
+
+    .face-four-p {
+      font-family: 'Roboto-Ligh';
+    }
+  }
+
+  .section-face-input {
+    font-size: 14px;
+    display: block;
+    background-color: #fff;
+    outline: none;
+    border: 2px solid #ff4e50;
+    margin: 25px auto;
+    padding: 4% 26%;
+    color: #ff4e50;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .desk-box {
+    display: none;
+}
+
+}
